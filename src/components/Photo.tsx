@@ -1,10 +1,9 @@
 import React from 'react';
+import AccountBoxIcon from '@mui/icons-material/AccountBox';
 
 function Photo() {
-  return (
-    
-    <i className='fa-solid fa-user'></i>
-    
+  return (    
+    <AccountBoxIcon color="success" />    
   );
 }
 

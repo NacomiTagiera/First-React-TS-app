@@ -1,11 +1,15 @@
 import React from 'react';
-import './Intro.css';
+import Typography from '@mui/material/Typography';
 
-function Intro() {
+function Intro(props: { description: string }) {
   return (
-    <div>    
-        <p className='Intro'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero incidunt, dicta consequatur aspernatur maxime nesciunt!</p>
-    </div>
+    <>    
+      <Typography sx={{
+        fontWeight: 500,
+        textAlign: 'justify',
+        pb: 3,
+      }}>{props.description}</Typography>
+    </>
   );
 }
 
