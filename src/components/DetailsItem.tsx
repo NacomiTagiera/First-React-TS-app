@@ -1,15 +1,16 @@
-import React from 'react';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
+import { ReactNode } from "react";
+import { Box, Typography } from "@mui/material";
 
-function DetailsItem(props: { icon: React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal; text: string }) {
-  return (    
-      <Box sx={{
-        textAlign: 'center',
-      }}>
-        <Typography>{props.icon}</Typography>
-        <Typography>{props.text}</Typography>
-      </Box>
+function DetailsItem(props: { icon: ReactNode; text: string }) {
+  return (
+    <Box
+      sx={{
+        textAlign: "center",
+      }}
+    >
+      <Typography>{props.icon}</Typography>
+      <Typography>{props.text}</Typography>
+    </Box>
   );
 }
 
