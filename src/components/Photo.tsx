@@ -1,10 +1,7 @@
-import React from 'react';
-import AccountBoxIcon from '@mui/icons-material/AccountBox';
+import AccountBoxIcon from "@mui/icons-material/AccountBox";
 
 function Photo() {
-  return (    
-    <AccountBoxIcon color="success" />    
-  );
+  return <AccountBoxIcon color="success" />;
 }
 
 export default Photo;

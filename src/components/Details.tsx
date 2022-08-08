@@ -1,7 +1,7 @@
 import Box from "@mui/material/Box";
 import ContactMailIcon from "@mui/icons-material/ContactMail";
-import LocationOnIcon from "@mui/icons-material/LocationOn";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
 
 import DetailsItem from "./DetailsItem";
 

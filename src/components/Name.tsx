@@ -1,11 +1,10 @@
-import React from 'react';
-import Typography from '@mui/material/Typography';
+import { Typography } from "@mui/material";
 
 const nameStyle = {
-  display: 'inline',
+  display: "inline",
   fontWeight: 700,
   fontSize: 22,
-  fontFamily: 'Courier',
+  fontFamily: "Courier",
 } as const;
 
 const jobStyle = {
@@ -13,13 +12,12 @@ const jobStyle = {
   marginLeft: 5,
 } as const;
 
-function Name(props: { myName: string; myJob: string; }) {
-
-  return (   
+function Name(props: { myName: string; myJob: string }) {
+  return (
     <>
-      <Typography sx={nameStyle}>{props.myName}</Typography>    
-      <Typography sx={jobStyle}>{props.myJob}</Typography>   
-    </> 
+      <Typography sx={nameStyle}>{props.myName}</Typography>
+      <Typography sx={jobStyle}>{props.myJob}</Typography>
+    </>
   );
 }
 
