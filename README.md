@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# My First React app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the very first React app I have ever created! I would like to point out that this was my **first programming assignment** during my summer internship at (NeuroSYS)[https://neurosys.com/blog/telemetric-system] in 2022. Although the app may not appear impressive at first glance, I gained valuable experience with React, TypeScript, and Material UI by creating it.
 
 ## Available Scripts
 
