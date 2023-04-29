@@ -1,6 +1,6 @@
 # My First React app
 
-This is the very first React app I have ever created! I would like to point out that this was my **first programming assignment** during my summer internship at [NeuroSYS](https://neurosys.com/blog/telemetric-system) in 2022. Although the app may not appear impressive at first glance, I gained valuable experience with React, TypeScript, and Material UI by creating it.
+This is the very first React app I have ever created! It's worth mentioning that this was my **first programming assignment** during my summer internship at [NeuroSYS](https://neurosys.com/blog/telemetric-system) in 2022. Although the app may not appear impressive at first glance, I gained valuable experience with React, TypeScript, and Material UI by creating it.
 
 ## Available Scripts
 
